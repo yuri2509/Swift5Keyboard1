@@ -51,6 +51,9 @@
                                             <state key="normal" title="ログイン">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cO-8s-i9T"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </view>
@@ -60,10 +63,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="logoImageView" destination="G3i-h6-KzA" id="Hww-1p-1Ln"/>
+                        <outlet property="passWordTextField" destination="SJ7-25-xTG" id="Va2-zs-08L"/>
+                        <outlet property="userNameTextField" destination="Cl8-d6-Alc" id="7xc-6m-34R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-811.59420289855075" y="94.419642857142847"/>
+            <point key="canvasLocation" x="-1074" y="98"/>
         </scene>
     </scenes>
     <resources>
