@@ -55,6 +55,20 @@
                                                 <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cO-8s-i9T"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="パスワード" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFT-aw-iVr">
+                                            <rect key="frame" x="76" y="673" width="269" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ユーザーネーム" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tR8-eU-UXK">
+                                            <rect key="frame" x="76" y="598" width="269" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </view>
                                 <blurEffect style="regular"/>
@@ -65,13 +79,15 @@
                     </view>
                     <connections>
                         <outlet property="logoImageView" destination="G3i-h6-KzA" id="Hww-1p-1Ln"/>
+                        <outlet property="passWordLabel" destination="dFT-aw-iVr" id="0TF-Wa-VXh"/>
                         <outlet property="passWordTextField" destination="SJ7-25-xTG" id="Va2-zs-08L"/>
+                        <outlet property="userNameLabel" destination="tR8-eU-UXK" id="Czg-hy-uWP"/>
                         <outlet property="userNameTextField" destination="Cl8-d6-Alc" id="7xc-6m-34R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1074" y="98"/>
+            <point key="canvasLocation" x="-1073.913043478261" y="98.4375"/>
         </scene>
     </scenes>
     <resources>
