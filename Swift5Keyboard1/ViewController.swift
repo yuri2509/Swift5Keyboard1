@@ -31,11 +31,17 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBAction func login(_ sender: Any) {
         
+        logoImageView.image = UIImage(named: "loginOK")
+        
         userNameLabel.text = userNameTextField.text
         
         passWordLabel.text = passWordTextField.text
         
     }
+    
+    //タッチでキーボードを閉じる
+    
+    //リターンキーを押した時にキーボードを閉じる
     
 }
 
